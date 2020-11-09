@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Volkhov&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-size: cover;
+            /* background-position: center; */
+        }
+        .left{
+        
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        top:20px;
+
+       /* margin-left: 60px; */
+       
+    }
+    .left img{
+        color: green;
+        width:50px;
+        
+    }
+    
+        .mid{
+        display: block;
+        width: 100%;
+        margin-left: 160px ;
+        
+        }
+        .navbar{
+        display:block;
+        background-color: teal;
+        
+        
+
+    }
+    .navbar li{
+        display:inline-block;
+        font-size: 20px;
+        padding: 10px 5px;
+        
+        
+       
+    }
+    .navbar li a{
+        text-decoration: none;
+        padding: 34px 20px ;
+        color:thistle;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+        
+    }
+
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        padding: 34px 23px;
+    }
+    .box{
+        margin-top: 5px;
+        width: 100%;
+    }
+    .header{
+        width: 86%;
+        /* height: 40px; */
+    }
+    .subbox{
+        background-image: url(bg1.jpg);
+        width: 100%;
+        height: 400px;
+
+    }
+    .subbox2{
+        width: 500px;
+        float: left;
+        margin-left: 100px;
+    }
+
+    .jp{
+        border-radius: 70px;
+        width:400px;
+        height: 340px;
+        float: left;
+        margin-top: 20px;
+    }
+    .about{
+        /* float: left; */
+        font-family: 'Volkhov', serif; 
+        font-size: 35px;
+        text-align: center;
+    }
+    .data{
+        font-family:'Volkhov', serif ;
+        text-align: center;
+        float: left;
+       margin-left: 98px;
+       font-size: 30px;
+    }
+    .subbox3{
+        background-color: rgb(184, 228, 228);
+        /* width: 100%; */
+    }
+
+    .box3{
+            background-color: rgb(243, 199, 232);
+            height: 400px;
+            width: 100%;
+            padding-top: 10px;
+            font-size: 20px;
+            padding-left: 260px;
+             
+
+        }
+       .box3 h2{
+            /* padding-left: 120px; */
+             font-size: 43px;
+             font-weight: 500;
+             font-family:'Volkhov', serif ;
+            padding-left: 332px;
+            
+        }
+                .a{
+            margin: auto;
+            padding-left: 50px;
+    
+            padding-top: 5px;
+            width: 100%;
+        }
+        .kkv{
+            height: 50px;
+            width: 50px;
+            margin-top: 20px;
+            margin-left: 20px;
+            padding-top: 18px;
+            margin: auto;
+        }
+        .fnt{
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            
+        }
+        .box4{
+            border: 1px solid rgb(214, 191, 191);
+            height: 650px;
+            width: 100%;       
+            
+            text-align: center;
+            background-image: url(pink.jfif);
+            opacity: 0.9;
+            font-family:'Volkhov', serif;
+            font-size: 20px;
+
+        }
+       .img{
+            height: 400px;
+            width: 600px;
+            float: left;
+            padding-left: 50px;
+            margin-top: 20px;
+       }
+       .board{
+           float: left;
+       }
+       .box5{
+          font-family: 'Volkhov', serif;
+          background: rgb(195, 226, 195);
+       }
+       .center{
+           width:40%;
+           padding:20px;
+           background-image: url(skills.jpg);
+           box-sizing:border-box;
+           float: left;
+        
+       }
+       .center h1{
+           margin: 0;
+           padding: 0;
+           color:blue;
+           text-transform: uppercase;
+           letter-spacing: 2px;
+       }
+       .skillBox
+       {
+           box-sizing: border-box;
+           width: 100%;
+           margin:10px 0;
+       }
+       .skillBox p{
+           color:blue;
+           text-transform: uppercase;
+           margin: 0 0 10px;
+           padding: 0;
+           font-weight: bold;
+           letter-spacing: 1px;
+       }
+       .skillBox p:nth-child(2)
+       {
+           float: right;
+           position: relative;
+           top: -25px;
+       }
+       .skill{
+           background:rgb(180, 219, 247);
+           padding: 4px;
+           box-sizing: border-box;
+           border: 1px solid rgb(166, 161, 241);
+           border-radius: 2px;
+       }
+       .skill_level{
+           background:blue;
+           width: 100%;
+           height: 10px;
+       }
+       .container{
+            width: 80%;
+            margin: 50px auto;
+       }
+       .contact-box{
+            background-color: white;
+            display: flex;
+       }
+       .Achieve{
+           float: left;
+           background-image: url(strength.jfif);
+           width: 60%;
+           height: 392px;
+           background-repeat: no-repeat;
+           color: white;
+       }
+       .Achieve h1{
+           text-align: left;
+           font-size: 40px;
+
+       }
+       .Achieve ul li{
+           font-size: 20px;
+           padding-top: 20px;
+        }
+        .contact{
+            width: 100%;
+            height: 700px;
+            background-image: url(contact.png);
+            background-repeat: no-repeat;
+            margin: auto;
+        }
+        .contact img{
+            width: 30px;
+            
+        }   
+        .c{
+            padding-top: 10px;
+        }
+
+      
+    </style>
+</head>
+<body>
+    <div class="box">
+         <header class="header">
+            <div class="left">
+                <img src="mypic.jpg">
+                
+            </div>
+           <div class="mid">
+            
+     
+         <ul class="navbar">
+             <li ><a href="#">About Me</a></li>
+             <li><a href="#">Education</a></li>
+             <li><a href="#">Skills</a></li>
+             <li><a href="#">Projects</a></li>
+             <li><a href="#">Interest</a></li>
+             <li><a href="#">Contact Me</a></li> 
+         </ul>
+             
+     </div>
+     
+     </header>
+     <div class="subbox">
+         <div > <img class="jp" src="JP.jpg" alt="jp"> </div>
+         <div class="subbox2">
+            <div><h1 class="about">About Me</h1></div>
+             <div class="data">My name is Jinkal Parmar. I am a Front End Developer.</div>
+           </div>      
+     </div>
+     <div class="subbox3">
+        <div class="box3">
+            <h2 class="h2">Education</h2>
+
+            <div class="board">
+            <div class="kkv"><img src="kkv.png" height="50px" width="50px"></div>
+            <div style="text-align: center;"> Kasturba Kanya Vidyalaya,Anand</div>
+            <div class="a"><a href="http://www.cesociety.in/kkv_primary/index.aspx" >Kasturba Kanya Vidyalaya</a></div>
+            <div class="fnt">SSC</div>
+            <div class="fnt">March-2009</div>
+            <div class="fnt">Percentage:75%</div>
+            </div>
+          
+            <div class="board">
+            <div class="kkv"><img src="RPTP.jfif" height="50px" width="50px"></div>
+            <div style="text-align: center;"> R.P.T.P Science School,V.V.nagar</div>
+            <div class="a" style="padding-left: 80px;"><a href="http://www.vpscience.org/" >R.P.T.P Science School,V.V.nagar</a></div>
+            <div  class="fnt">HSC-12th Science</div>
+            <div  class="fnt">March-2011</div>
+            <div  class="fnt">Percentage:65%</div>
+            </div>
+
+            <div class="board">
+            <div class="kkv"><img src="MBICT.png" height="50px" width="50px"></div>
+            <div style="text-align: center;">MBICT Engineeing College,New V.V.Nagar.</div>
+            <div class="a"><a href="https://www.mbit.edu.in/" >MBICT Engineering College.</a></div>
+            <div  class="fnt">B.E.(Computer Engineering)</div>
+            <div  class="fnt">June-2015</div>
+            <div  class="fnt">CGPA:6.84</div>
+            </div>
+        </div> 
+        </div>
+        <div class="box4">
+            <div><h1>Projects</h1></div>
+            <div><a href="file:///D:/HTML/cafe/index.html"><img class="img" src="page1.png" alt="cafe"></a></div>
+            <div><a href="file:///D:/HTML/Vegan_store/index.html"><img class="img" src="1page.png" alt="Vegon store"></a></div>
+        </div>
+
+    </div>
+
+            <div class="box5">
+                <div class="center">
+                    <h1>My Skills</h1>
+
+
+                    <div class="skillBox">
+                        <p>html5</p>
+                        <p>80%</p>
+                        <div class="skill">
+                            <div class="skill_level" style="width: 80%;">
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="skillBox">
+                        <p>css3</p>
+                        <p>80%</p>
+                        <div class="skill">
+                            <div class="skill_level" style="width:80%;">
+                                
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="skillBox">
+                        <p>javascript</p>
+                        <p>30%</p>
+                        <div class="skill">
+                            <div class="skill_level" style="width: 30%;">
+                                
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="skillBox">
+                        <p>C,C++</p>
+                        <p>70%</p>
+                        <div class="skill">
+                            <div class="skill_level" style="width: 70%;">
+                                
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="skillBox">
+                        <p>Microsoft Office</p>
+                        <p>90%</p>
+                        <div class="skill">
+                            <div class="skill_level" style="width: 90%;">    
+                        </div>
+                     </div>
+                 </div>
+                 
+                </div>
+            </div> 
+
+        </div>
+    </div>
+                     
+        <div class="Achieve">
+        <h1>Strength</h1>
+        <div>
+            <ul>
+                <li> Self Motivated</li>
+                <li> Positive Attitude</li>
+                <li>Can work effectively in group.</li>
+                <li>Communication skill</li>
+                <li>Can adapt to the situation easily</li>
+               
+            </ul>
+        </div>
+    </div>
+        
+
+     </div>
+     
+     
+        
+    
+    
+    </div>  
+    <div class="contact">
+        <h1>Contact Me</h1>
+        <div class="c"><img src="email-removebg-preview.png">jinkalparmar07@gmail.com</div>
+        <div class="c"><img src="mobile-removebg-preview.png">9737460472</div>
+        <div class="c"><img src="house-removebg-preview.png">At.Sokhdakhurd,Padra</div>
+
+    </div>   
+</body>
+</html>
+
